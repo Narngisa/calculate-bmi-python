@@ -1,1 +1,1 @@
-# calculate-bmi
+# Calculate-BMI
