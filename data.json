@@ -1,0 +1,27 @@
+{
+    "below": {
+        "BMI": "Below normal",
+        "IPT": "Less than 18.5",
+        "ROC": "Risk of malnutrition"
+    },
+    "normal": {
+        "BMI": "Normal",
+        "IPT": "18.5 - 22.9",
+        "ROC": "Lowest risk of complications"
+    },
+    "over": {
+        "BMI": "Overweight",
+        "IPT": "23.0 - 24.9",
+        "ROC": "Early stage of overweight, starting to have minor complications"
+    },
+    "obese": {
+        "BMI": "Obese",
+        "IPT": "25.0 - 29.9",
+        "ROC": "Obese, complications in the early stage"
+    },
+    "severely": {
+        "BMI": "Severely obese",
+        "IPT": "More than 30.0",
+        "ROC": "Obese, increased risk of complications due to obesity"
+    }
+}
