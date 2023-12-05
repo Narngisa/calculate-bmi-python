@@ -2,8 +2,7 @@ import os
 import json
 
 # Read JSON file
-file_path = 'data.json'
-with open(file_path, 'r') as file:
+with open('data.json', 'r') as file:
     data = json.load(file)
 
 below_data = data['below']
@@ -17,7 +16,7 @@ weight = float(input("Weight: "))
 height = float(input("Height: "))
 
 def calculate(weight, height) -> float:
-    
+
     bmi = weight / (height / 100) ** 2
 
     # Clear Terminal
@@ -37,7 +36,7 @@ def calculate(weight, height) -> float:
         category_data = severely_data
 
     # Output BMI category information
-    print(f"BMI: {category_data['BMI']}")
+    print(f"BMI Category: {category_data['BMI']}")
     print(f"Interpretation: {category_data['IPT']}")
     print(f"Risk of complications: {category_data['ROC']}")
 
