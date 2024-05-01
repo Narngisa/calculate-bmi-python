@@ -5,10 +5,11 @@ The script calculates BMI using the formula: body weight in `kilograms` divided 
 > [!IMPORTANT]
 > Install *[Python](https://www.python.org/) 3.9 or higher*
 
-- **Calculate BMI**
-```py
-bmi = weight / (height / 100) ** 2
-```
+> [!NOTE]
+> - **Calculate BMI**
+> ```py
+> bmi = weight / (height / 100) ** 2
+> ```
 
 - **Read JSON file**
 ```py
